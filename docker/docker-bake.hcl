@@ -28,5 +28,5 @@ target "default" {
     pipelines_dir = "${PIPELINES_DIR}"
     additional_python_path = "${ADDITIONAL_PYTHON_PATH}"
   }
-  platforms = ["linux/amd64", "linux/arm64"]
+  platforms = ["linux/amd64"]
 }

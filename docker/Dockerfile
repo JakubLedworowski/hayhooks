@@ -38,4 +38,6 @@ EXPOSE 1416
 
 ENV PATH="/opt/venv/bin:$PATH"
 
+RUN pip install trafilatura
+
 CMD ["hayhooks", "run", "--host", "0.0.0.0"]
